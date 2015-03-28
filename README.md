@@ -1,4 +1,4 @@
-# tweets
+# Tweets Requirements and Installation
 
 Prerequisites:
 
