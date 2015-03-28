@@ -1,53 +1,24 @@
 # Tweets Requirements and Installation
 
-Prerequisites:
+##Prerequisites:
 
-Python should be installed 2.7
+1. Python 2.7
+1. MongoDb
+1. `tweepy`, `pymongo`, `wikipedia` python libraries
 
-MongoDb should be installed 
+##How to Install:
 
-Tweepy Library should be installed in python
+###MongoDB:
 
-Pymongo should be installed in python for mongodb access using python
+Mongodb can be downloaded from mongodb.org website.  Version 3.0 is more preferable.  Mongodb is scalable, json support document nosql database.  `mongod` executable is the server.  `mongo` executable is the client.
 
-wikipedia package should be installed in python
+###Python modules
 
-How to Install:
+    sudo pip install tweepy
+    sudo pip install pymongo
+    sudo pip install wikipedia
 
-MongoDB installation :
+##How to run:
 
-Mongodb can be downloaded from mongodb.org website
-
-Version 3.0 is more preferable 
-
-Mongodb is scalable,json support document nosql database
-
-mongod executable is server 
-
-mongo executable is client 
-
-Tweepy Installation :
-
-tweepy can be installed using pip or easy setup
-
-sudo pip install tweepy
-
-Pymongo Installation :
-
-pymongo can also be installed using pip
-
-sudo pip install pymongo
-
-Wikipedia Installation :
-
-wikipedia can also be installed using pip
-
-sudo pip install wikipedia
-
-Above code files can be executed by using command 
-
-python filename
-
-
-
+TODO: please explain which python module is the main program and how to invoke it.  Need to show command line example for how to start up all system components from scratch, including mongodb server.  For example:
 
