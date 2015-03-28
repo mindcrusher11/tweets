@@ -98,6 +98,7 @@ class StdOutListener(StreamListener):
 # Some Tweepy code that can be left alone. It pulls from variables at the top of the script
 if __name__ == '__main__':
 	try:
+		#list of active players which is stored in mongodb so list need to be there in mongodb
 		active_player = db.active_athletes
 		players = []
 		athlete_list = active_player.find({}).limit(400)
@@ -107,7 +108,7 @@ if __name__ == '__main__':
 		l = StdOutListener()
 		auth = OAuthHandler(consumer_key, consumer_secret)
 		auth.set_access_token(access_token, access_token_secret)
-
+		#player names are passed to twitter streaming to filter tweets for players
 		stream = Stream(auth, l)
 		stream.filter(track=players)
 		
