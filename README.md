@@ -44,7 +44,9 @@ wikipedia can also be installed using pip
 
 sudo pip install wikipedia
 
+Above code files can be executed by using command 
 
+python filename
 
 
 
