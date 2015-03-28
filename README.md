@@ -20,5 +20,5 @@ Mongodb can be downloaded from mongodb.org website.  Version 3.0 is more prefera
 
 ##How to run:
 
-TODO: please explain which python module is the main program and how to invoke it.  Need to show command line example for how to start up all system components from scratch, including mongodb server.  For example:
+TODO: please explain which python module is the main program and how to invoke it.  Need to show command line examples of to start up all system components, including the mongodb server.
 
