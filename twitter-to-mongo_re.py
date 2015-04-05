@@ -23,15 +23,11 @@ keywords = ['$goog', '#funny', 'ipad']
 language = ['en']
 
 #Variables that contains the user credentials to access Twitter API 
-access_token = "374363728-BCe1rusHWiVPBHDCQ5RoketbfaNePuHXTeJja7W6"
-access_token_secret = "cMyNaQwVzxtXKqSG0jjlI1H6avEoMbvZ36pB7Zr5dPEN0"
-consumer_key = "hhYq78kZ6VkAp4Q4pXzuKCOkA"
-consumer_secret = "A468W3FnFd9WcL2PXYeRO0iLWnu90761HkKHijXRXqmgtR1bpk"
+access_token = "value"
+access_token_secret = "value"
+consumer_key = "value"
+consumer_secret = "value"
 
-#consumer_key="IzxpLmPU7bcH6mkoEPhrDgCRz"
-#consumer_secret="vqo6m3JU1TKRhSGwDHg8IxuvOZ4IGiiXdFxn8kgwuRTb5ijogZ"
-#access_token="100311379-VJOuaxitBtDCq2WK11HXo3ROQSzDME7Ut1vL3AoI"
-#access_token_secret="Ga3VCILMJkBd898Ewd3excvzicDPpepiRKvX0z9YMLM1q"
 
 # The below code will get Tweets from the stream and store only the important fields to your database
 class StdOutListener(StreamListener):
